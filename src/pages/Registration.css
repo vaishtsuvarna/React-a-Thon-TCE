@@ -1,0 +1,51 @@
+/* src/pages/Registration.css */
+.registration {
+    padding: 200px;
+    background:-webkit-repeating-linear-gradient(45deg, purple, rgb(255, 255, 255), black, orange);
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.registration h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    font-weight: bold;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.registration form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration form button {
+    width: fit-content;
+    align-self: flex-start;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
