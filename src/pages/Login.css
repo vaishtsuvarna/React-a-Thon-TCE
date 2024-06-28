@@ -1,69 +1,46 @@
 /* src/pages/Login.css */
-.login-container {
+.addUser{
     max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background: linear-gradient(45deg, purple, white, black, orange);
-    border-radius: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: white;
-    animation: fadeIn 2s ease-in-out;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:1px 1px 8px rgba(0, 0, 0, 0.65) ;
+}
+.bg-black{
+    background-color: rgb(181, 160, 160);
+}
+.addUserForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.login-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
-    animation: slideIn 1.5s ease-in-out;
+.addUserForm .inputGroup input{
+    margin-top: 5px ;
+    padding:5px ;
+}
+.inputGroup button{
+    margin-top: 10px ;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
 
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
+.addUser h3{
+    color:black ;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.7) ;
 }
-
-.form-group input {
-    width: 80%;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
+.addUser .btn.btn-primary{
+    background-color: #522D6D;
 }
-
-button {
-    width: 30%;
-    padding: 10px;
-    border: none;
-    border-radius: 100px;
-    background-color: purple;
-    color: white;
-    font-size: 1rem;
-    cursor:pointer;
+.signin .btn.btn.btn-success{
+    background-color: #522D6D;;
 }
-
-button:hover {
-    background-color: darkorange;
-
-}
-
-/* Keyframes for animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slideIn {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
+.orange-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
