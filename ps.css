@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    border: 5px solid purple;
+    padding: 40px;
+    margin: 40px;
+    font-family: Arial, sans-serif; /* Example: Change the font family for readability */
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+    color: orange;
+    font-size: 2.5rem; /* Adjust heading font size for larger screens */
+  }
+  
+  h2 {
+    color: orange;
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border: 1px solid purple;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card-title {
+    color: purple;
+  }
+  
+  .btn-primary {
+    background-color: purple;
+    border-color: purple;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(139, 58, 0); /* Darker shade of orange */
+    border-color: rgb(139, 58, 0); /* Darker shade of orange */
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjustments for medium to small screens */
+    body {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .card-img-top {
+      height: 120px;
+    }
+  }
+  
