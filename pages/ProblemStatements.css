@@ -1,0 +1,21 @@
+/* src/pages/ProblemStatements.css */
+.problem-statements {
+    background: linear-gradient(to right,#ca03f7, #d05407,#424040); /* Example gradient */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .problem-statements h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .problem-statements p {
+    font-size: 1.2rem;
+  }
+  
